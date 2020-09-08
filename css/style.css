@@ -87,7 +87,7 @@ body {
 .s2{
     font-size: 1.1cm;
     color: gold;
-    position: relative;bottom:355px;left:829px ;
+    position: relative;bottom:35px;left:829px ;
     opacity: 70%;
 }
 .s2image{
@@ -297,8 +297,9 @@ body {
             display: inline;
         }
         .maintable{
-            border-spacing: 20px 20px;
-            position: relative;right: 20px
+            border-spacing: 2px 0.5px;
+            position: relative;right: 30px;
+           
         } 
         .wwhead,.wwbrackets,.ww,.friendshead,.friends{
             font-size: 100%;
