@@ -1,0 +1,61 @@
+img{
+    height: 50px;
+    opacity: 2;
+
+}
+li {    
+    display: inline-block;
+   
+}
+.l-main-nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding: 0 11.25%;
+}
+.a-main-nav{
+    padding: 0.5em;
+    display: inline;
+    color: silver;
+    font-size: 1.05em;
+    text-decoration: none;
+    
+}
+h1 {
+    text-align: center;
+    
+    color: cornsilk;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
+    position: relative;bottom: 170px;top: 200px;
+    
+}
+
+
+
+body {
+    
+    background: #000000;
+    opacity: 1;
+
+background-image: url("../images/pexels-egil-sjøholt-1906658.jpg");
+
+
+}
+.linkimage{
+    height: 60px;
+    width: 60px;
+    opacity: 50%;
+    mix-blend-mode: screen;
+    position: relative;bottom: 400px;left: 450px;
+
+}
+
+.bandimage {
+    height: 800px;
+    width: 1000px;
+    
+    position: relative;bottom:300px;right: 100px;top: 200px;
+    mix-blend-mode: screen;
+    
+
+}
