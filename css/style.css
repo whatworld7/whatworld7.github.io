@@ -34,6 +34,8 @@ h1 {
     position: relative;bottom: 170px;top: 10px;
     
 }
+
+
 body {
     
         background: #000000;
@@ -42,7 +44,7 @@ body {
     background-image: url("../images/pexels-egil-sjøholt-1906658.jpg");
     background-size: cover; 
 }
-.linkimage{
+.linkimage,.linkimageap{
     height: 100px;
     width: 180px;
    
@@ -59,7 +61,7 @@ body {
     position: relative;bottom: 400px;left: 175px;top: -50px;
     transition: 2s;
 }
-.linkimage:hover,.linkimageu:hover{
+.linkimage:hover,.linkimageu:hover,.linkimageap:hover{
     transform: rotate(360deg) 
      translateX(-1mm);
 }
@@ -231,7 +233,7 @@ body {
     .bandimage{
         width: 70%;
     }
-    .linkimage{
+    .linkimage,.linkimageap{
       height: 60px;
       width: 60px;
          }
@@ -261,13 +263,13 @@ body {
 
     }
     }
-@media all and (max-width:743px) and (min-width:400px){
+@media all and (max-width:743px) and (min-width:368px){
     .bandimage{
         width :90%;
         offset-position: 10px;
         position: relative;left: 20px;
     } 
-    .linkimage{
+    .linkimage,.linkimageap{
         width: 60px;
         height: 60px;
         position: relative;left:15px ;
@@ -305,16 +307,16 @@ body {
         }
     }
         
-@media all and (max-width:399px) and (min-width:299px){
+@media all and (max-width:367px) and (min-width:299px){
     .bandimage{
        width :90%;
         offset-position: 10px;
         position: relative;left: 20px;       
                 }
-    .linkimage{
+    .linkimage,.linkimageap{
         width: 60px;
         height: 60px;
-        position: relative;left:-50px ;
+        position: relative;left:-80px ;
         
     }  
     .linkimageu{
@@ -353,6 +355,11 @@ body {
         .insta:hover,.utube:hover{
             height: 30px;
             width: 30px;
+        }
+        .linkimageap{
+        width: 60px;
+        height: 60px;
+        position: relative;left:170px;top:-140px;;
         }
 }
 .allmusic{
