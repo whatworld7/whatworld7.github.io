@@ -207,7 +207,7 @@ body {
 .utube{
     height: 100px;
     width: 150px;
-    position: relative;top: 20px; right: 50px;
+    position: relative;top: 10px; right: 40px;
     transition: 2s;
 }
 .insta:hover,.utube:hover{
